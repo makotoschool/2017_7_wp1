@@ -6,6 +6,51 @@ Template: twentythirteen
 */
 
 
+.site-title{
+color:red;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.site-title{
+color:red;
+text-align:center;
+}
+
+.site-description{
+text-align:center;
+}
+
+.search-form{
+display:none;
+
+}
+
+.nav-menu li a{
+padding: 15px 64px;
+
+}
+
+.nav-menu li:not(:last-child) a{
+border-right:1px dotted #000;
+}
+
+*/
 
 
