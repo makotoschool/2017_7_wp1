@@ -5,7 +5,6 @@ Template: twentythirteen
 
 */
 
-
 .site-title{
 color:#e23434;
 text-align:center;
@@ -42,8 +41,85 @@ padding:0;
 
 }
 
+.site-header .site-title:hover{
+text-decoration:none;
+}
+
+.archive-header{
+background:none;
+}
+
+.archive-header .archive-title{
+font-size:14pt;
+font-style:normal;
+
+}
+
+.archive-header .archive-title:before{
+content:'';
+display:inline-block;
+width:20px;
+height:20px;
+background-color:#E23434;
+position:relative;
+top:3px;
+border-radius:50%;
 
 
+}
+.archive-header .archive-title:after{
+content:'';
+display:inline-block;
+width:20px;
+height:20px;
+background-color:#E23434;
+position:relative;
+top:3px;
+border-radius:50%;
+}
+
+
+.entry-meta,
+.comments-area
+{
+display:none;
+}
+
+.category-blog .entry-meta,
+.single .category-blog + nav + .comments-area
+{
+display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.entry-meta,
+.comments-area
+{
+display:none;
+
+}
+
+.category-blog .entry-meta,
+.single .category-blog + nav + .comments-area
+{
+display:block;
+
+}
+
+*/
 /*
 
 .search-form{
