@@ -7,38 +7,61 @@ Template: twentythirteen
 
 
 .site-title{
-color:red;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.site-title{
-color:red;
+color:#e23434;
 text-align:center;
 }
 
 .site-description{
 text-align:center;
+font-style: normal;
 }
 
 .search-form{
 display:none;
+}
+
+
+.nav-menu li a{
+padding:15px 68px;
+
+}
+/*
+.nav-menu li:last-child a{
+border:none;
+}
+*/
+
+.nav-menu li:not(:last-child) a{
+border-right:1px dotted #000;
+
+}
+
+
+ul.nav-menu{
+padding:0;
+
+}
+
+
+
+/*
+
+.search-form{
+display:none;
+
+}
+
+.site-title:first-letter{
+color:#fff;
+display:block;
+background-color:blue;
+padding:0px 12px;
+border-radius:50%;
+-webkit-box-shadow: 4px 5px 8px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    4px 5px 8px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         4px 5px 8px 0px rgba(50, 50, 50, 0.75);
+
+
 
 }
 
@@ -47,10 +70,23 @@ padding: 15px 64px;
 
 }
 
-.nav-menu li:not(:last-child) a{
+.nav-menu  li:not(:last-child) > a{
 border-right:1px dotted #000;
 }
 
+.nav-menu li:hover > a,
+.nav-menu li a:hover,
+.nav-menu li ul li a
+{
+background-color:#7fd3e8;
+
+}
+
+.site-header .site-title:hover{
+text-decoration:none;
+
+}
+
+
+
 */
-
-
