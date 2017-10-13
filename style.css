@@ -100,13 +100,20 @@ z-index:100;
 
 /*トップページカスタム*/
 .home .page:after{
-content:'';
+content:'WEBで飯を食う！';
+color:#fff;
+font-size:500%;
+font-weight:bold;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+text-align:center;
+line-height:600px;
 display:block;
 width:100%;
 height:600px;
-background-image:url(http://localhost/wp1/wp-content/uploads/2017/10/s_business-office-morning-coffee-picjumbo-com.jpg);
+background-image:url(http://localhost/wp1/wp-content/uploads/2017/10/woman.png),url(http://localhost/wp1/wp-content/uploads/2017/10/s_business-office-morning-coffee-picjumbo-com.jpg);
 background-repeat:no-repeat;
-background-size:cover;
-background-attachment:fixed;
+background-size:40%,cover;
+background-position:0 240px,center;
+background-attachment:scroll,fixed;
 
 }
