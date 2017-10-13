@@ -92,3 +92,21 @@ display:block;
 }
 
 
+/*上へ戻るボタンstyle*/
+a#scroll-to-top{
+z-index:100;
+
+}
+
+/*トップページカスタム*/
+.home .page:after{
+content:'';
+display:block;
+width:100%;
+height:600px;
+background-image:url(http://localhost/wp1/wp-content/uploads/2017/10/s_business-office-morning-coffee-picjumbo-com.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+
+}
